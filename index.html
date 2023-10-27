@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">  
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">  
+<style>
+        #headerApp{
+            background: white;
+            border-bottom: 1px solid #c2c2c2;
+            box-shadow: none;
+        }
+        #tituloPagina{
+            color: rgb(105, 105, 105);
+            font-family: 'PT Serif', serif;
+            font-size: 20px;
+        }
+        #contenidoReal{
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        #nombre{
+            color: rgb(50, 50, 50);
+            color: #07393C !important;
+            font-family: 'PT Serif', serif;
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-family: 'PT Serif', serif !important;
+        }
+        .mdl-navigation__link{
+            color: rgb(50, 50, 50) !important;
+            font-family: 'Crimson Text', serif;
+            padding: 0 20px !important;
+            font-size: 18px !important;
+        }
+        img{
+        }
+        p{
+            font-family: 'Crimson Text', serif;
+            font-size: 19px;;
+        }
+        li{
+            font-family: 'Crimson Text', serif !important;
+            list-style: none;
+            
+        }
+        ul{
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        .mdl-logo{
+            font-family: 'Crimson Text', serif !important;
+        }
+        .link_social{
+            text-decoration: none !important;
+        }
+        .link_social:hover{
+            text-decoration: underline !important;
+        }
+
+        a{
+            color: #07393C !important;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header id="headerApp" class="mdl-layout__header">
+    <div class="mdl-layout__header-row" >
+        <span id="tituloPagina" class="mdl-layout-title">Juliana Sánchez-Ariza</span>
+        <div class="mdl-layout-spacer"></div>
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="index.html">Home</a>
+            <a class="mdl-navigation__link" href="research.html">Research</a>
+            <a class="mdl-navigation__link" href="cv.html">CV</a>
+            <a class="mdl-navigation__link" href="misc.html">Misc.</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">Link</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+        <div id="contenidoReal">
+            <!--CONTENIDO-->
+            
+            <div class="mdl-grid" style="margin-top: 20px; border-bottom: 1px solid;">
+                <div class="mdl-cell mdl-cell--4-col" style="padding-right: 20px; margin: 0 auto;">
+                    <img style="width: 100%;" src="perfil.jpg" >
+                    
+                </div>
+                <div class="mdl-cell mdl-cell--8-col">
+                    <h3 id="nombre" style="text-align: center;">Juliana Sánchez-Ariza</h3>
+                    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis dolor lectus. Mauris et tincidunt eros, at varius lorem. Phasellus eu odio sit amet eros blandit varius. Cras ornare quam felis, quis iaculis purus venenatis id. Curabitur tincidunt tristique nisi et scelerisque. <br><br>In ornare congue diam, ac venenatis turpis pellentesque et. Proin sollicitudin, mi ac faucibus maximus, mauris ipsum consectetur mi, porta lobortis tellus lectus nec tortor. Sed pellentesque fringilla elementum. Nam hendrerit orci eget ligula eleifend, sed bibendum ligula posuere. Nullam pellentesque mollis quam nec tempor. Donec egestas tellus consectetur, pellentesque arcu quis, varius nibh. Etiam imperdiet molestie lorem ac lacinia. Mauris tincidunt sem velit, et maximus elit dignissim a. Duis nec pulvinar diam, vel pretium nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris erat enim, rutrum fringilla venenatis non, volutpat vitae orci.<br><br>
+                </div>
+                
+
+                
+            </div>
+            <div class="mdl-grid">
+                <h4 style="width: 100%">Contact</h4>
+                <ul>
+                    <li>
+                        <a class="link_social" href="https://www.linkedin.com/in/julianasanchezariza/"><p><i class="fa fa-envelope" style="color: #000; margin-right: 5px;"></i>  j.sancheza@uniandes.edu.co</p></a>
+                        <a class="link_social" href="https://www.linkedin.com/in/julianasanchezariza/"><p><img alt="ORCID logo" src="orcid.svg" width="16" height="16" style="margin-right: 5px;" /> ORCID</p></a>
+                        <a class="link_social" href="https://www.linkedin.com/in/julianasanchezariza/"><p><img alt="Google Scholar" src="google_scholar.svg" width="16" height="16" style="margin-right: 5px;" /> Google Scholar</p></a>
+                        <a class="link_social" href="https://www.linkedin.com/in/julianasanchezariza/"><p><i class="fa fa-linkedin" style="color: #0077b5; margin-right: 5px;"></i>  julianasanchezariza</p></a>
+                        <a class="link_social" href="https://twitter.com/jsanchezariza"><p><i class="fa fa-twitter" style="color: #1DA1F2; margin-right: 5px;"></i>  @jsanchezariza</p></a>
+                    </li>
+                    <li>https://www.github.com/in/julianasanchezariza/</li>
+                </ul>
+            </div>
+            <!--FIN CONTENIDO-->
+        </div>
+    </div>
+  </main>
+  <footer class="mdl-mini-footer" style="margin-top: 20px;">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">© 2023 Juliana Sánchez-Ariza</div>
+      <!--<ul class="mdl-mini-footer__link-list">
+        <li><a href="#">© 2023 Julian Sánchez-Ariza</a></li>
+        <li><a href="#">Privacy & Terms</a></li>
+      </ul>-->
+    </div>
+  </footer>
+</div>
+</body>
+</html>
