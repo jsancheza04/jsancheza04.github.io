@@ -39,29 +39,20 @@ const publications = [
         "short_abstract": "We examine the effect of the exposure (or reduction in the exposure) to conflictrelated violence on parental mental health, caregivers' parenting stress and responsive caregiving, and early childhood mental health. We use data collected from the impact evaluation of a psychosocial group intervention in Tumaco, Colombia, a community chronically affected by the armed conflict. ",
         "abstract": "We examine the effect of the exposure (or reduction in the exposure) to conflictrelated violence on parental mental health, caregivers' parenting stress and responsive caregiving, and early childhood mental health. We use data collected from the impact evaluation of a psychosocial group intervention in Tumaco, Colombia, a community chronically affected by the armed conflict. Using an Instrumental Variables approach, we use the program's randomization into cohorts and staggered design of the data collection to exploit a natural experiment in which the armed groups in the municipality agreed to a Truce and municipal violence rates dropped between data collections. We find that the exposure to recent conflict-related violence had negative effects across the four main dimensions: increased parental mental health problems in 0.68 sd (SE=0.342 ; q-value=0.074), increased parenting stress in 0.76 sd (SE=0.389 ; q-value=0.074), reduced responsive caregiving in -1.023 sd (SE=0.434 ; q-value=0.074) and increased child mental health problems in 0.556 sd (SE=0.343 ; q-value=0.074). By providing causal evidence on the direct effect of conflict-related violence on parenting outcomes, we conduct an exploratory mediation analysis to assess whether parental mental health, parenting stress and responsive caregiving behaviors may partially account for the association between violence and child mental health. Yet, correlational links between violence and parental mental health and parenting behavior outcomes as mediators suggest important associations for understanding children's mental health vulnerability in conflict settings. "
     },
-    {
+        {
         "id": 5,
-        "type": "work_in_progress",
-        "title": "Maternal Mental Health and Early Childhood Development in Conflict-Affected Settings",
-        "authors": "Moya, A., Harker, A., Lieberman, A., Niño, B., <i>Sánchez-Ariza J</i>, Torres, M., and Reyes, V."
+        "type": "publication",
+        "title": "The long-term effects of cash transfer programmes on young adults’ mental health: a quasi-experimental study of Colombia, Mexico, and South Africa",
+        "authors": "Zimmerman A, Lund C, Araya R, Evans-Lacko S, Díaz Y, <i>Sánchez Ariza J</i>, Hessel P, Garman E, Avendano M.",
+        "link": "https://academic.oup.com/heapol/article/40/2/206/7862659",
+        "journal": "<b>Health Policy and Planning</b> Volume 40, Issue 2, March 2025, Pages 206–217.",  
+        "abstract":"Poverty is associated with poorer mental health in early adulthood. Cash transfers (CTs) have been shown to improve child health and education outcomes, but it is unclear whether these effects may translate into better mental health outcomes as children reach young adulthood. Using a quasi-experimental approach that exploits variation across countries in the timing of national CT programme introduction, we examine whether longer exposure to CTs during childhood (0–17 years) reduces depressive symptoms in early adulthood (18–30 years). Based on harmonized data from Colombia, Mexico, and South Africa (N = 14 431), we applied logistic regression models with country and birth-cohort fixed effects to estimate the impact of cumulative years of CT exposure on mental health, educational attainment, and employment outcomes. Our findings indicate that each additional year of CT exposure during childhood is associated with a 4% reduction in the odds of serious depressive symptoms in early adulthood [odds ratio (OR) = 0.96, 95% confidence intervals (CIs): 0.93, 0.98]. We find no consistent effect of years of exposure on completion of secondary school (OR = 1.01, 95% CIs: 0.99, 1.03) and a negative effect on the probability of employment in early adulthood (OR = 0.90, 95% CIs: 0.88, 0.91). These results suggest that longer exposure to CTs may contribute to modest but meaningful reductions in population-level depressive symptoms during early adulthood."
     },
     {
         "id": 6,
         "type": "work_in_progress",
-        "title": "The long-term effects of cash transfer programmes on young adults mental health: A quasi-experimental study of Colombia, Mexico and South Africa.",
-        "authors": "Zimmerman A, Lund C, Araya R, Evans-Lacko S, Díaz Y, <i>Sánchez Ariza J</i>, Hessel P, Garman E, Avendano M."
-    },
-    {
-        "id": 7,
-        "type": "work_in_progress",
-        "authors": "Hessel P, Cuartas J, and <i>Sánchez J</i>.",
-        "title": "Assessing Absolute and Relative Inequalities in Early Childhood Development in 73 Low- and Middle-Income Countries."
-    },
-    {
-        "id": 8,
-        "type": "work_in_progress",
-        "authors": "Behrman J, McCoy D, Cuartas J, and <i>Sánchez J</i>.",
-        "title": "Measuring Stimulation in Early Development. Are available instruments reliable?"
+        "title": "Maternal Mental Health and Early Childhood Development in Conflict-Affected Settings",
+        "authors": "Moya, A., Harker, A., Lieberman, A., Niño, B., <i>Sánchez-Ariza J</i>, Torres, M., and Reyes, V."
     }
 ]
 
