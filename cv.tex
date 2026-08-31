@@ -1,0 +1,189 @@
+% Editable reconstruction of cv.pdf (last updated November 17, 2023).
+% Compile with: pdflatex cv.tex
+% The content below intentionally preserves the wording, links, and date in
+% the source PDF so that the initial PDF output is a close visual match.
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+\pagestyle{empty}
+\raggedright
+\raggedbottom
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=[rgb]{0,0.28,0.67},
+  linkcolor=black,
+  pdfborder={0 0 0}
+}
+
+% Layout helpers.  The indentation and table width follow the source PDF.
+\newcommand{\cvsection}[1]{%
+  \vspace{11pt}%
+  {\Large\scshape #1\par}%
+  \vspace{3pt}\hrule\vspace{6pt}%
+}
+\newcommand{\entryliststart}{%
+  \begin{itemize}[leftmargin=0.15in,label={},topsep=0pt,partopsep=0pt,
+                  itemsep=0pt,parsep=0pt]
+}
+\newcommand{\entrylistend}{\end{itemize}}
+\newcommand{\cventry}[4]{%
+  \item
+  \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.71\textwidth}@{\extracolsep{\fill}}r@{}}
+    {\raggedright\large\bfseries #1} & {\large #2} \\
+    {\raggedright\itshape #3} & {\itshape #4} \\
+  \end{tabular*}\vspace{5pt}%
+}
+\newcommand{\cvtextliststart}{%
+  \begin{itemize}[leftmargin=0.15in,label={},topsep=0pt,partopsep=0pt,
+                  itemsep=0pt,parsep=0pt]
+}
+\newcommand{\cvtextitem}[1]{\item #1\vspace{3pt}}
+\newcommand{\cvtextlistend}{\end{itemize}}
+\newcommand{\cvminor}[1]{%
+  {\hspace*{16.08pt}\textbullet\hspace{5.85pt}#1\par}%
+}
+
+\begin{document}
+
+\begin{center}
+  {\Huge\bfseries Juliana S\'anchez Ariza}\\[-1pt]
+  (773)-517-1219 \textbar\ 
+  \href{mailto:juliana.sanchez@princeton.edu}{juliana.sanchez@princeton.edu}
+  \textbar\ 
+  \href{https://jsancheza04.github.io/}{https://jsancheza04.github.io/}
+  \textbar\ Princeton, NJ.
+\end{center}
+\vspace{1pt}
+
+\cvsection{Education}
+\entryliststart
+  \cventry{Universidad de los Andes}{Bogot\'a, Colombia}
+    {M.A. in Economics (Original Scale GPA: 4.3/5; WES iGPA Calculator: 3.86/4)}
+    {Jan 2021 -- Oct 2022}
+  \cventry{Universidad de los Andes}{Bogot\'a, Colombia}
+    {B.A. in Economics (Original Scale GPA: 4.35/5; WES iGPA Calculator: 3.83/4)}
+    {Aug 2016 -- Apr 2021}
+\entrylistend
+\cvminor{Minor in Interdisciplinary Development Studies}
+
+\cvsection{Interests}
+\cvtextliststart
+  \cvtextitem{Applied microeconomics, especially in the fields of development, behavior, family, labor, and gender economics.}
+\cvtextlistend
+
+\cvsection{Research Experience}
+\entryliststart
+  \cventry{Pre-doc Research Fellow - RPDE}{\textit{July 2022 -- Present}}
+    {\href{https://seemajayachandran.com/}{Seema Jayachandran, PhD.} Professor of Economics and Public Affairs at\newline Princeton University}
+    {Princeton, NJ}
+  \cventry{Pre-doc Research Fellow - CEDE}{\textit{January 2021 -- July 2022}}
+    {\href{https://economia.uniandes.edu.co/moya}{Andr\'es Moya, PhD.} Associate Professor at Universidad de los Andes}
+    {Bogot\'a, Colombia}
+  \cventry{Consultant - LEGO Foundation}{\textit{January 2022 -- June 2022}}
+    {\href{https://scholar.harvard.edu/jorgecuartas/home}{Jorge Cuartas.}}
+    {}
+  \cventry{\parbox[t]{325pt}{\raggedright Research Assistant - Alberto Lleras Camargo School of Government}}
+    {\textit{June 2019 -- June 2022}}
+    {\href{https://scholar.google.com.co/citations?user=J4swKxAAAAAJ\&hl=en}{Philipp Hessel, PhD.} Associate Professor at Universidad de los Andes}
+    {Bogot\'a, Colombia}
+  \cventry{Research Assistant - Fedesarrollo}{\textit{January 2021 -- June 2022}}
+    {Victor Saavedra}
+    {}
+  \cventry{Research Intern - \href{https://www.poverty-action.org/}{Innovations for Poverty Action (IPA)}}
+    {\textit{June 2020 -- January 2021}}
+    {Inmmediate boss: Dayana T\'ellez Galeano. Research manager at IPA}
+    {Bogot\'a, Colombia}
+  \cventry{Research Assistant - CEDE}{\textit{June 2020 -- July 2022}}
+    {\href{https://economia.uniandes.edu.co/cardenas}{Juan Camilo C\'ardenas, PhD.} Full Professor at Universidad de los Andes}
+    {Bogot\'a, Colombia}
+  \cventry{Research Assistant - CEDE}{\textit{June 2019 -- August 2019}}
+    {\href{https://economia.uniandes.edu.co/profesores/miguel-urrutia}{Miguel Urrutia, PhD.} Full Professor at Universidad de los Andes}
+    {Bogot\'a, Colombia}
+  \cventry{Research Assistant - Social Sciences Department}{\textit{January 2019 -- December 2019}}
+    {\href{https://cienciassociales.uniandes.edu.co/profesores/tatiana-andia/}{Tatiana Andia, PhD.} Assistant Professor at Universidad de los Andes}
+    {Bogot\'a, Colombia}
+\entrylistend
+
+\cvsection{Publications}
+\cvtextliststart
+  \cvtextitem{\textbf{S\'anchez-Ariza, J.}, Cuartas,J. \& Moya, A. \href{https://www.aeaweb.org/articles?id=10.1257/pandp.20231017}{The Mental Health of Caregivers and Young Children in Conflict-Affected Settings}. \textbf{\textit{AEA Papers and Proceedings}}, \textit{113}: 336-41.}
+  \cvtextitem{Zimmerman A, Lund C, Araya R, Hessel P, \textbf{S\'anchez J}, Garman E, Evans-Lacko S, D\'iaz Y, Avendano-Pabon M.(2022) \href{https://gh.bmj.com/content/7/1/e006960}{The relationship between multidimensional poverty, income poverty and youth depressive symptoms: cross-sectional evidence from Mexico, South Africa and Colombia.} \textbf{\textit{BMJ Global Health}} .2022;7:e006960.}
+  \cvtextitem{Cuartas, J., McCoy, D., \textbf{S\'anchez, J.}, Behrman, J., Cappa, C., Donati, G., Heymann, J., Lu, C., Raikes, A., Rao, N., Richter, L., Stein, A., \& Yoshikawa, H. (2023). \href{https://pubmed.ncbi.nlm.nih.gov/37114644/}{Family play, reading, and other stimulation and early childhood development in five low-and-middle-income countries.} \textbf{\textit{Developmental Science}}, 00, e13404. https://doi.org/10.1111/desc.13404}
+\cvtextlistend
+
+% The source PDF begins this fourth entry at the top of its second page.
+\newpage
+\cvtextliststart
+  \cvtextitem{\textbf{S\'anchez-Ariza J}, Moya A, Cuartas J. Conflict, Parenting, and Early Childhood Mental Health in Conflict-affected Settings: Evidence from Colombia. \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4230362}{Documento CEDE \# 34}}
+\cvtextlistend
+
+\cvsection{Work in Process}
+\cvtextliststart
+  \cvtextitem{Moya, A., Harker, A., Lieberman, A., Ni\~no, B. \textbf{S\'anchez-Ariza, J.}, Torres, M. \& Reyes, V. Maternal Mental Health and Early Childhood Development in Conflict-Affected Settings}
+  \cvtextitem{Zimmerman A, Lund C, Araya R, Evans-Lacko S, D\'iaz Y, \textbf{S\'anchez Ariza J}, Hessel P, Garman E, Avendano M. The long-term effects of cash transfer programmes on young adults' mental health: A quasi-experimental study of Colombia, Mexico and South Africa.}
+\cvtextlistend
+
+\cvsection{Workshops and conferences}
+\entryliststart
+  \cventry{\parbox[t]{411pt}{\raggedright 18th Annual Workshop of the Households in Conflict Network: ``Exposure to Political Violence and Individual Behaviour''}}
+    {November 2022}
+    {}
+    {}
+\entrylistend
+
+\cvsection{Teaching Experience}
+\entryliststart
+  \cventry{Teaching Assistant - Introduction to Economics in Colombia}{\textit{Jan 2019 -- Jun 2020}}
+    {\href{https://economia.uniandes.edu.co/profesores/miguel-urrutia}{Miguel Urrutia, PhD.} Full Professor at Universidad de los Andes}
+    {Bogot\'a, Colombia}
+  \cventry{Teaching Assistant - Introduction to Public Policies}{\textit{Jan 2019 -- Aug 2019}}
+    {Phillip Hessel, PhD. Associate Professor at Universidad de los Andes}
+    {Bogot\'a, Colombia}
+  \cventry{Teaching Assistant - History of Development}{\textit{Aug 2018 -- Dec 2018}}
+    {Gonzalo Vargas, PhD. Assistant Professor at Universidad de los Andes}
+    {Bogot\'a, Colombia}
+\entrylistend
+
+\cvsection{Skills}
+\cvtextliststart
+  \cvtextitem{\textbf{Data Software:} Stata, ArcGIS, QGIS, MS Excel, R, Git}
+  \cvtextitem{\textbf{Tools:} \LaTeX, Microsoft Office (Word, Power Point), SurveyCTO, Covidence, Qualtrics}
+\cvtextlistend
+
+\cvsection{Languages}
+\cvtextliststart
+  \cvtextitem{\textbf{Spanish} - Native \hspace{34pt} \textbf{English} - C1. Fluent speaking, reading and writing.}
+\cvtextlistend
+
+\cvsection{References}
+\begin{tabular}{@{}p{238pt}@{}p{302pt}@{}}
+  \href{https://seemajayachandran.com/index.html}{\textbf{Seema Jayachandran}} &
+  \href{https://sites.google.com/view/andresmoya}{\textbf{Andr\'es Moya}} \\
+  Professor of Economics and Public Affairs & Associate Professor \\
+  Princeton University & Universidad de los Andes \\
+  Princeton, NJ. USA. & Bogot\'a, Colombia. \\
+  \href{mailto:jayachandran@princeton.edu}{jayachandran@princeton.edu} &
+  \href{mailto:a.moya@uniandes.edu.co}{amoya@uniandes.edu.co} \\
+  \multicolumn{2}{@{}l@{}}{\rule{0pt}{13pt}} \\
+  \href{https://economia.uniandes.edu.co/cardenas}{\textbf{Juan Camilo C\'ardenas}} &
+  \href{https://www.homepages.ucl.ac.uk/~uctpamv/}{\textbf{Marcos Vera-Hernandez}} \\
+  Full Professor & Professor of Economics \\
+  Universidad de los Andes & University College London \\
+  Bogot\'a, Colombia. & London, United Kingdom. \\
+  \href{mailto:jccarden@uniandes.edu.co}{jccarden@uniandes.edu.co} &
+  \href{mailto:m.vera@ucl.ac.uk}{m.vera@ucl.ac.uk} \\
+\end{tabular}
+
+\vfill
+\hfill\textit{Last update : November 17, 2023}
+
+\end{document}

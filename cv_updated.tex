@@ -1,0 +1,177 @@
+% Current PhD CV version. Compile with: pdflatex cv_updated.tex
+% Content is organized for easy direct editing. The expected graduation year
+% (2030) follows the public 2024--2030 program timeline; update if needed.
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[letterpaper,margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+
+\pagestyle{empty}
+\raggedright
+\raggedbottom
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\urlstyle{same}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=[rgb]{0,0.28,0.67},
+  linkcolor=black,
+  pdfborder={0 0 0}
+}
+
+\newcommand{\cvsection}[1]{%
+  \vspace{11pt}%
+  {\Large\scshape #1\par}%
+  \vspace{3pt}\hrule\vspace{6pt}%
+}
+\newcommand{\entryliststart}{%
+  \begin{itemize}[leftmargin=0.15in,label={},topsep=0pt,partopsep=0pt,
+                  itemsep=0pt,parsep=0pt]
+}
+\newcommand{\entrylistend}{\end{itemize}}
+\newcommand{\cventry}[4]{%
+  \item
+  \begin{tabular*}{0.97\textwidth}[t]{@{}p{0.71\textwidth}@{\extracolsep{\fill}}r@{}}
+    {\raggedright\large\bfseries #1} & {\large #2} \\
+    {\raggedright\itshape #3} & {\itshape #4} \\
+  \end{tabular*}\vspace{2pt}%
+}
+\newcommand{\cvtextliststart}{%
+  \begin{itemize}[leftmargin=0.15in,label={},topsep=0pt,partopsep=0pt,
+                  itemsep=0pt,parsep=0pt]
+}
+\newcommand{\cvtextitem}[1]{\item #1\vspace{3pt}}
+\newcommand{\cvtextlistend}{\end{itemize}}
+\newcommand{\cvminor}[1]{%
+  {\hspace*{16.08pt}\textbullet\hspace{5.85pt}#1\par}%
+}
+
+\begin{document}
+
+\begin{center}
+  {\Huge\bfseries Juliana S\'anchez-Ariza}\\[-1pt]
+  {\large Department of Economics, Boston University}\\[-1pt]
+  (773)-517-1219 \textbar\ 
+  \href{mailto:jsariza@bu.edu}{jsariza@bu.edu}
+  \textbar\ 
+  \href{https://jsancheza04.github.io/}{https://jsancheza04.github.io/}
+  \textbar\ Boston, MA
+\end{center}
+\vspace{1pt}
+
+\cvsection{Education}
+\entryliststart
+  \cventry{Boston University}{Boston, MA}
+    {Ph.D. Candidate in Economics}
+    {Aug. 2024 -- Expected 2030}
+  \cventry{Universidad de los Andes}{Bogot\'a, Colombia}
+    {M.A. in Economics}
+    {Jan. 2021 -- Oct. 2022}
+  \cventry{Universidad de los Andes}{Bogot\'a, Colombia}
+    {B.A. in Economics; Minor: Interdisciplinary Development Studies}
+    {Aug. 2016 -- Apr. 2021}
+\entrylistend
+
+\cvsection{Research Fields}
+\cvtextliststart
+  \cvtextitem{Economics of Education, Labor Economics, Development Economics, and Health Economics.}
+\cvtextlistend
+
+\cvsection{Publications}
+\cvtextliststart
+  \cvtextitem{Zimmerman, A., Avendano, M., Lund, C., Araya, R., D\'iaz, Y., \textbf{S\'anchez-Ariza, J.}, Hessel, P., Garman, E., \& Evans-Lacko, S. (2025). \href{https://doi.org/10.1093/heapol/czae102}{The long-term effects of cash transfer programmes on young adults' mental health: A quasi-experimental study of Colombia, Mexico, and South Africa}. \textbf{\textit{Health Policy and Planning}}, \textit{40}(2), 206--217.}
+  \cvtextitem{\textbf{S\'anchez-Ariza, J.}, Cuartas, J., \& Moya, A. (2023). \href{https://doi.org/10.1257/pandp.20231017}{The Mental Health of Caregivers and Young Children in Conflict-Affected Settings}. \textbf{\textit{AEA Papers and Proceedings}}, \textit{113}, 336--341.}
+  \cvtextitem{Cuartas, J., McCoy, D., \textbf{S\'anchez, J.}, Behrman, J., Cappa, C., Donati, G., Heymann, J., Lu, C., Raikes, A., Rao, N., Richter, L., Stein, A., \& Yoshikawa, H. (2023). \href{https://doi.org/10.1111/desc.13404}{Family play, reading, and other stimulation and early childhood development in five low-and-middle-income countries}. \textbf{\textit{Developmental Science}}, \textit{23}(6), e13404.}
+  \cvtextitem{Zimmerman, A., Lund, C., Araya, R., Hessel, P., \textbf{S\'anchez, J.}, Garman, E., Evans-Lacko, S., D\'iaz, Y., \& Avendano-Pabon, M. (2022). \href{https://gh.bmj.com/content/7/1/e006960}{The relationship between multidimensional poverty, income poverty and youth depressive symptoms: Cross-sectional evidence from Mexico, South Africa and Colombia}. \textbf{\textit{BMJ Global Health}}, \textit{7}, e006960.}
+\cvtextlistend
+
+\cvsection{Working Papers}
+\cvtextliststart
+  \cvtextitem{\textbf{S\'anchez-Ariza, J.} \textit{Teachers as Buffers: Instructor Quality and the Academic Consequences of Community-Level Adversity}. Work in progress.}
+  \cvtextitem{King, J. R., \textbf{S\'anchez-Ariza, J.}, \& Greif Green, J. \textit{Discipline as a Doorway? Behavioral Incidents and Access to School Telemental Health Services}. Work in progress.}
+  % Confirm the final paper title with the coauthors before distribution.
+  \cvtextitem{Goodman, J., Melkers, J., Miller, C., Pallais, A., \& \textbf{S\'anchez-Ariza, J.} \textit{Labor Market Returns to Online Graduate Computer Science Education}. Work in progress.}
+  \cvtextitem{Moya, A., \textbf{S\'anchez-Ariza, J.}, Torres, M. J., Harker, A., Lieberman, A., Ni\~no, B., \& Reyes, V. \textit{Maternal Mental Health and Early Childhood Development in Conflict-Affected Settings: Experimental Evidence from Colombia}. Submitted.}
+  \cvtextitem{\textbf{S\'anchez-Ariza, J.}, Cuartas, J., \& Moya, A. \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4230362}{\textit{Conflict, Parenting, and Early Childhood Mental Health in Conflict-affected Settings: Evidence from Colombia}}. Documento CEDE \#34.}
+\cvtextlistend
+
+\cvsection{Research Experience}
+\entryliststart
+  \cventry{Research Assistant - Professor Benjamin Marx}{\textit{Fall 2026}}
+    {Department of Economics, Boston University}
+    {Boston, MA}
+  \cventry{Research Assistant - Professors Jo King and Jennifer Greif Green}{\textit{Summer 2026}}
+    {Boston University}
+    {Boston, MA}
+  \cventry{Co-Principal Investigator - Early Childhood Care and Education (ECCE) Policy Baseline Survey}{\textit{Mar. 2026 -- Present}}
+    {Innovations for Poverty Action (IPA) and the Uganda Ministry of Education and Sports. National mixed-methods baseline study of ECCE service delivery, workforce, governance, and policy implementation.}
+    {Kampala, Uganda}
+  \cventry{Pre-Doctoral Research Fellow - Research Program in Development Economics}{\textit{July 2022 -- July 2024}}
+    {\href{https://seemajayachandran.com/}{Seema Jayachandran, PhD.} Professor of Economics and Public Affairs, Princeton University}
+    {Princeton, NJ}
+\entrylistend
+
+\cvsection{Selected Pre-PhD Research Experience}
+\cvtextliststart
+  \cvtextitem{\textbf{Centro de Estudios sobre Desarrollo Econ\'omico (CEDE), Universidad de los Andes, Bogot\'a, Colombia (2019--2022).} Pre-Doctoral Research Fellow for Andr\'es Moya (Jan. 2021--July 2022); Research Assistant for Juan Camilo C\'ardenas (June 2020--July 2022) and Miguel Urrutia (June--Aug. 2019).}
+  \cvtextitem{\textbf{Alberto Lleras Camargo School of Government, Universidad de los Andes, Bogot\'a, Colombia (June 2019--June 2022).} Research Assistant for Philipp Hessel.}
+  \cvtextitem{\textbf{Fedesarrollo (Jan. 2021--June 2022).} Research Assistant for Victor Saavedra.}
+  \cvtextitem{\textbf{Innovations for Poverty Action (IPA), Bogot\'a, Colombia (June 2020--Jan. 2021).} Research Intern, working with Dayana T\'ellez Galeano.}
+  \cvtextitem{\textbf{LEGO Foundation (Jan. 2022--June 2022).} Consultant, working with Jorge Cuartas.}
+\cvtextlistend
+
+\cvsection{Teaching, Service, and Leadership}
+\entryliststart
+  \cventry{Teaching Assistant - EC101: Introductory Microeconomics}{\textit{Fall 2025 and Fall 2026}}
+    {Department of Economics, Boston University}
+    {Boston, MA}
+\entrylistend
+\cvtextliststart
+  \cvtextitem{\textbf{Graduate Economics Association (GEA) Representative, Boston University (Academic Year 2026--2027):} one of three representatives. \textbf{Development Reading Group Co-Leader, Boston University (Academic Year 2025--2026).}}
+\cvtextlistend
+
+\cvsection{Workshops and Conferences}
+\cvtextliststart
+  \cvtextitem{\textbf{18th Annual Workshop of the Households in Conflict Network} (Nov. 2022): ``Exposure to Political Violence and Individual Behaviour.''}
+\cvtextlistend
+
+\cvsection{Skills and Languages}
+\cvtextliststart
+  \cvtextitem{\textbf{Data software:} Stata, R, ArcGIS, QGIS, MS Excel, Git}
+  \cvtextitem{\textbf{Tools:} \LaTeX, Microsoft Office, SurveyCTO, Covidence, Qualtrics}
+  \cvtextitem{\textbf{Languages:} Spanish (native); English (C1, fluent speaking, reading, and writing)}
+\cvtextlistend
+
+\cvsection{References}
+{\footnotesize
+\begin{tabular*}{\textwidth}{@{}p{0.235\textwidth}@{\extracolsep{\fill}}p{0.235\textwidth}@{\extracolsep{\fill}}p{0.235\textwidth}@{\extracolsep{\fill}}p{0.235\textwidth}@{}}
+  \parbox[t]{\linewidth}{\raggedright
+    \href{https://www.bu.edu/wheelock/profile/joshua-goodman/}{\textbf{Joshua Goodman}}\\[-1pt]
+    Professor of Education and Economics\\[-1pt]
+    Boston University\\[-1pt]
+    \href{mailto:edecjosh@bu.edu}{edecjosh@bu.edu}}
+  & \parbox[t]{\linewidth}{\raggedright
+    \href{https://www.bu.edu/econ/profile/benjamin-marx/}{\textbf{Benjamin Marx}}\\[-1pt]
+    Associate Professor of Economics\\[-1pt]
+    Boston University\\[-1pt]
+    \href{mailto:bmarx@bu.edu}{bmarx@bu.edu}}
+  & \parbox[t]{\linewidth}{\raggedright
+    \href{https://economia.uniandes.edu.co/moya}{\textbf{Andr\'es Moya}}\\[-1pt]
+    Associate Professor of Economics\\[-1pt]
+    Universidad de los Andes\\[-1pt]
+    \href{mailto:a.moya@uniandes.edu.co}{a.moya@uniandes.edu.co}}
+  & \parbox[t]{\linewidth}{\raggedright
+    \href{https://economia.uniandes.edu.co/cardenas}{\textbf{Juan Camilo C\'ardenas}}\\[-1pt]
+    Professor of Economics\\[-1pt]
+    Universidad de los Andes\\[-1pt]
+    \href{mailto:jccarden@uniandes.edu.co}{jccarden@uniandes.edu.co}}
+  \\
+\end{tabular*}\par}
+\vspace{2pt}
+\hfill\textit{Last updated: August 2026}
+
+\end{document}
